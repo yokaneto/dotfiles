@@ -1,0 +1,13 @@
+escape t
+
+vbell on
+shell -zsh
+#shelltitle "$| ~zsh" 
+
+hardstatus alwayslastline "[%02c] %`%-w%{=b bw}%n %t%{-}%+w"
+#hardstatus alwayslastline "[%02c] %`%-w%{=b bw}%n %t%{-}%+w"
+#hardstatus alwayslastline "%`%-w%{=b bw}%n %t%{-}%+w"
+#hardstatus alwayslastline "%{= Gk}[%m/%d %02c]%{= Mw}%l%{= BW}%n:%H%{= Wb} %t"
+#defhstatus I^En:^EtI
+
+startup_message off
